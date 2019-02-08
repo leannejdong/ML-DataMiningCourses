@@ -1,0 +1,110 @@
+%\documentclass[12pt, answers]{exam}
+\documentclass[12pt, answers]{exam}
+%\setlength{\textheight}{5in}
+%\usepackage[textwidth=9in,centering]{geometry}
+\usepackage[a4paper, margin=.9in]{geometry}
+\usepackage{econometrics}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,enumerate,enumitem}
+\usepackage{setspace, graphicx, multirow, dcolumn, caption}
+\usepackage{bm}
+
+
+% \usepackage{etoolbox}
+% \AtEndEnvironment{question}{\bigskip\bigskip}
+
+% \usepackage{etoolbox}
+% \makeatletter
+%  \patchcmd\@setheadheight{\endgroup}{\global\vsize=\textheight\endgroup}{}{}
+% \makeatother
+
+
+% Notation
+\def\eps{\varepsilon}
+\def\var{\text{Var}}
+\def\cov{\text{Cov}}
+\def\corr{\text{Corr}}
+\def\Ybar{\overline{Y}}
+\def\Xbar{\overline{X}}
+\def\ybar{\overline{y}}
+\def\xbar{\overline{x}}
+\def\Yhat{\widehat{Y}}
+\def\yhat{\widehat{y}}
+\def\fhat{\widehat{f}}
+\def\bhat{\widehat{\beta}}
+\def\betahat{\widehat{\vbeta}}
+\def\MSE{\text{MSE}}
+\def\SE{\text{SE}}
+\def\train{\mathcal{T}}
+\def\data{\mathcal{D}}
+\def\model{\mathcal{M}}
+\def\hvtheta{\widehat{\vtheta}}
+\def\({\left(}
+\def\){\right)}
+
+
+%\setlength{\parindent}{0pt}
+\onehalfspace
+
+%\renewcommand{\labelitemi}{1.}
+
+%\bracketedpoints
+\pointpoints{mark}{marks}
+% \qformat{\textbf{Problem \thequestion: \\ \hspace{10pt} \\}}
+
+
+\qformat{
+    \textbf{Question \thequestion}
+    \hfill
+    \vrule depth 20pt width 0pt % Large depth to make space
+}
+
+\begin{document}
+
+\begin{center}
+{\Large \textbf{QBUS6810 Statistical Learning and Data Mining}}\\ \large{Tutorial 2 (Written Exercise)}
+\end{center}
+
+
+%\begin{questions}
+
+%\bigskip
+
+%\question
+\noindent Decompose the Expected Prediction Error into three parts: Irreducible error, squared Bias, and Variance (slides 33-35 of Lecture 1).
+
+\begin{solution}
+We treat $\vx_0$ and $f$ as fixed, i.e. non-random.  Note that $Y_0$ is not in the original sample, and so $\fhat$ is independent of both $Y_0$ and $\eps_0$.  We have:
+\begin{align*}
+\text{EPE}=&\,E\left[\(Y_0-\fhat(\vx_0)\)^2\right] = E\left[\(f(\vx_0)+\eps_0-\fhat(\vx_0)\)^2\right] = E\left[\(\eps_0+\(f(\vx_0)-\fhat(\vx_0)\)\)^2\right]\\
+=&\,E\left[\eps_0^2\right]+2E\left[\eps_0\(f(\vx_0)-\fhat(\vx_0)\)\right]+E\left[\(f(\vx_0)-\fhat(\vx_0)\)^2\right].
+\end{align*}
+Note that $2E\left[\eps_0\(f(\vx_0)-\fhat(\vx_0)\)\right]=0$, because $\eps_0$ is independent from~$\(f(\vx_0)-\fhat(\vx_0)\)$, and $E\left[\eps_0\right]=0$, which implies $E\left[\eps_0\(f(\vx_0)-\fhat(\vx_0)\)\right]=E\left[\eps_0\right]E\left[f(\vx_0)-\fhat(\vx_0)\right]=0$.  Also note that, by definition, $\var\left(\eps_0\right)=E\left[\eps^2_0\right]-\Big(E\left[\eps_0\right]\Big)^2$.  Thus, $E\left[\eps_0^2\right]=\var\left(\eps_0\right)=\sigma^2$.  Consequently,
+\begin{align*}
+\text{EPE}=&\sigma^2+E\left[\(f(\vx_0)-\fhat(\vx_0)\)^2\right]=\text{Irreducible error }+\text{ Reducible error}.
+\end{align*}
+Now we focus on the Reducible error:
+\begin{align*}
+&E\left[\(f(\vx_0)-\fhat(\vx_0)\)^2\right]=E\left[\Big(f(\vx_0)-E\big[\fhat(\vx_0)\big]+E\big[\fhat(\vx_0)\big]-\fhat(\vx_0)\Big)^2\right]\\
+&=\Big(f(\vx_0)-E\big[\fhat(\vx_0)\big]\Big)^2+2E\left[\Big(f(\vx_0)-E\big[\fhat(\vx_0)\big]\Big)\Big(E\big[\fhat(\vx_0)\big]-\fhat(\vx_0)\Big)\right]\\
+&+E\left[\Big(E\big[\fhat(\vx_0)\big]-\fhat(\vx_0)\Big)^2\right].
+\end{align*}
+The middle term is zero again.  To see this note that the only random component in this term is $\fhat(\vx_0)$, and $E\Big[E\big[\fhat(\vx_0)\big]-\fhat(\vx_0)\Big]=0$.  Hence, the Reducible error is:
+\begin{align*}
+&\Big(f(\vx_0)-E\big[\fhat(\vx_0)\big]\Big)^2+E\left[\Big(E\big[\fhat(\vx_0)\big]-\fhat(\vx_0)\Big)^2\right]\\
+\;\;&=\Big(E\big[\fhat(\vx_0)\big]-f(\vx_0)\Big)^2+E\left[\Big(\fhat(\vx_0)-E\big[\fhat(\vx_0)\big]\Big)^2\right]\\
+\;\;&=\text{Bias}^2\Big(\fhat(\vx_0)\Big)+\var\Big(\fhat(\vx_0)\Big)
+\end{align*}
+
+Putting it all together,
+\begin{align*}
+\text{EPE}=\sigma^2+\text{Bias}^2\Big(\fhat(\vx_0)\Big)+\var\Big(\fhat(\vx_0)\Big).
+\end{align*}
+
+
+\end{solution}
+
+
+%\end{questions}
+
+\end{document} 

@@ -1,0 +1,689 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.19)  26 OCT 2018 12:36
+entering extended mode
+**"./Tutorial 13 Solutions.tex"
+("Tutorial 13 Solutions.tex"
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\exam\exam.cls"
+Document Class: exam 2017/12/17 Version 2.603 by Philip Hirschhorn
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cl
+s"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo
+"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\@extrawidth=\skip43
+\@rightmargin=\skip44
+\@extrahead=\skip45
+\@extrafoot=\skip46
+\run@exhd=\skip47
+\fp@exhd=\skip48
+\run@exft=\skip49
+\fp@exft=\skip50
+\covrun@exhd=\skip51
+\covfp@exhd=\skip52
+\covrun@exft=\skip53
+\covfp@exft=\skip54
+\c@num@coverpages=\count87
+\c@latest@ques=\count88
+\c@ques@end=\count89
+\c@last@object=\count90
+\c@incmp@ques=\count91
+\c@next@ques=\count92
+\c@next@page=\count93
+\c@tmp@hlfcntr=\count94
+\c@ifpos@cntr=\count95
+\c@question=\count96
+\c@partno=\count97
+\c@subpart=\count98
+\c@subsubpart=\count99
+\c@choice=\count100
+\c@numpoints=\count101
+\c@numbonuspoints=\count102
+\c@pointsof@thisquestion=\count103
+\c@bonuspointsof@thisquestion=\count104
+\c@numquestions=\count105
+\c@numparts=\count106
+\c@numsubparts=\count107
+\c@numsubsubparts=\count108
+\c@Curr@Page=\count109
+\c@@pagepoints=\count110
+\c@@pagebonuspoints=\count111
+\c@pageof@pagepoints=\count112
+\c@pageof@pagebonuspoints=\count113
+\c@latest@points=\count114
+\c@latest@bonuspoints=\count115
+\pageinfo@commands=\toks14
+\temp@toks=\toks15
+\pagepoint@commands=\toks16
+\point@toks=\toks17
+\c@ques@object=\count116
+\marginpointssep=\skip55
+\rightpointsmargin=\skip56
+\choice@toks=\toks18
+\answerlinelength=\skip57
+\answerskip=\skip58
+\answerclearance=\skip59
+\fillinlinelength=\skip60
+\linefillheight=\skip61
+\linefillthickness=\skip62
+\dottedlinefillheight=\skip63
+\gridsize=\skip64
+\gridlinewidth=\skip65
+\minboxheight=\skip66
+\c@@iterator=\count117
+\@cellwidth=\skip67
+\c@tbl@points=\count118
+\c@tbl@bonuspoints=\count119
+\c@pq@index=\count120
+\c@pq@index@pts=\count121
+\c@pq@index@bpts=\count122
+\c@num@cols=\count123
+\c@num@rows=\count124
+\c@current@row=\count125
+\c@cols@done=\count126
+\exam@box=\box26
+\saved@totalleftmargin=\dimen103
+\@sollistdepth=\count127
+\exam@FrameRule=\dimen104
+\exam@FrameSep=\dimen105
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
+ry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval
+.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpd
+f.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvt
+ex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxet
+ex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count128
+\Gm@cntv=\count129
+\c@Gm@tempcnt=\count130
+\Gm@bindingoffset=\dimen106
+\Gm@wd@mp=\dimen107
+\Gm@odd@mp=\dimen108
+\Gm@even@mp=\dimen109
+\Gm@layoutwidth=\dimen110
+\Gm@layoutheight=\dimen111
+\Gm@layouthoffset=\dimen112
+\Gm@layoutvoffset=\dimen113
+\Gm@dimlist=\toks20
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
+ry.cfg"))
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\econometrics\ec
+onometrics.sty")
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssym
+b.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfon
+ts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks21
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath
+.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip68
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext
+.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.
+sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen114
+))
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.
+sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen115
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.
+sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count131
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count132
+\leftroot@=\count133
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count134
+\DOTSCASE@=\count135
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen116
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+\macc@depth=\count136
+\c@MaxMatrixCols=\count137
+\dotsspace@=\muskip10
+\c@parentequation=\count138
+\dspbrk@lvl=\count139
+\tag@help=\toks23
+\row@=\count140
+\column@=\count141
+\maxfields@=\count142
+\andhelp@=\toks24
+\eqnshift@=\dimen117
+\alignsep@=\dimen118
+\tagshift@=\dimen119
+\tagwidth@=\dimen120
+\totwidth@=\dimen121
+\lineht@=\dimen122
+\@envbody=\toks25
+\multlinegap=\skip69
+\multlinetaggap=\skip70
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.s
+ty"
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks27
+\thm@bodyfont=\toks28
+\thm@headfont=\toks29
+\thm@notefont=\toks30
+\thm@headpunct=\toks31
+\thm@preskip=\skip71
+\thm@postskip=\skip72
+\thm@headsep=\skip73
+\dth@everypar=\toks32
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\enumerate
+.sty"
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks33
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumit
+em.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip74
+\enit@outerparindent=\dimen123
+\enit@toks=\toks34
+\enit@inbox=\box29
+\enitdp@description=\count143
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspa
+ce.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cs.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.s
+ty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gr
+aphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pd
+ftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multir
+ow.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip75
+\multirow@cntb=\count144
+\multirow@dima=\skip76
+\bigstrutjot=\dimen126
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\dcolumn.s
+ty"
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen127
+\extrarowheight=\dimen128
+\NC@list=\toks35
+\extratabsurround=\skip77
+\backup@length=\skip78
+))
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption
+.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption
+3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen129
+\captionmargin@=\dimen130
+\captionwidth=\dimen131
+\caption@tempdima=\dimen132
+\caption@indent=\dimen133
+\caption@parindent=\dimen134
+\caption@hangindent=\dimen135
+)
+\c@ContinuedFloat=\count145
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\bm.sty"
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\bookta
+bs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen136
+\lightrulewidth=\dimen137
+\cmidrulewidth=\dimen138
+\belowrulesep=\dimen139
+\belowbottomsep=\dimen140
+\aboverulesep=\dimen141
+\abovetopsep=\dimen142
+\cmidrulesep=\dimen143
+\cmidrulekern=\dimen144
+\defaultaddspace=\dimen145
+\@cmidla=\count146
+\@cmidlb=\count147
+\@aboverulesep=\dimen146
+\@belowrulesep=\dimen147
+\@thisruleclass=\count148
+\@lastruleclass=\count149
+\@thisrulewidth=\dimen148
+) ("Tutorial 13 Solutions.aux")
+\openout1 = `"Tutorial 13 Solutions.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 82.
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-30.0pt
+* \headheight=15.0pt
+* \headsep=15.0pt
+* \topskip=12.0pt
+* \footskip=29.0pt
+* \marginparwidth=36.135pt
+* \marginparsep=5.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
+.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count150
+\scratchdimen=\dimen149
+\scratchbox=\box30
+\nofMPsegments=\count151
+\nofMParguments=\count152
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count153
+\MPscratchDim=\dimen150
+\MPnumerator=\count154
+\makeMPintoPDFobject=\count155
+\everyMPtoPDFconversion=\toks37
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstop
+df-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infw
+arerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext
+.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvde
+finekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxc
+mds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopti
+ons.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvse
+tkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etex
+cmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflu
+atex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdft
+excmds.sty"
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 102.
+
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 102
+.
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 102
+.
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 102.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 102.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 102.
+LaTeX Font Info:    Try loading font information for U+msa on input line 102.
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.f
+d"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 102.
+
+("C:\Users\prad9100\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.f
+d"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \vbox (badness 10000) detected at line 139
+ []
+
+[1
+
+{C:/Users/prad9100/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2]
+Overfull \hbox (10.80878pt too wide) detected at line 216
+[]
+ []
+
+
+Overfull \hbox (10.80878pt too wide) detected at line 220
+[]
+ []
+
+
+Overfull \hbox (10.80878pt too wide) detected at line 224
+[]
+ []
+
+
+Overfull \hbox (10.80878pt too wide) detected at line 228
+[]
+ []
+
+[3] [4]
+<T1.pdf, id=23, 963.6pt x 542.025pt>
+File: T1.pdf Graphic file (type pdf)
+<use T1.pdf>
+Package pdftex.def Info: T1.pdf  used on input line 275.
+(pdftex.def)             Requested size: 385.43317pt x 216.80615pt.
+<P2.pdf, id=24, 963.6pt x 542.025pt>
+File: P2.pdf Graphic file (type pdf)
+<use P2.pdf>
+Package pdftex.def Info: P2.pdf  used on input line 285.
+(pdftex.def)             Requested size: 385.43317pt x 216.80615pt.
+ [5
+
+ <./T1.pdf> <./P2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./P2.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+>]
+<P1a.pdf, id=45, 963.6pt x 542.025pt>
+File: P1a.pdf Graphic file (type pdf)
+<use P1a.pdf>
+Package pdftex.def Info: P1a.pdf  used on input line 303.
+(pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
+<P1b.pdf, id=46, 963.6pt x 542.025pt>
+File: P1b.pdf Graphic file (type pdf)
+<use P1b.pdf>
+Package pdftex.def Info: P1b.pdf  used on input line 308.
+(pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
+<P1c.pdf, id=47, 963.6pt x 542.025pt>
+File: P1c.pdf Graphic file (type pdf)
+<use P1c.pdf>
+Package pdftex.def Info: P1c.pdf  used on input line 313.
+(pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
+<P1.pdf, id=48, 963.6pt x 542.025pt>
+File: P1.pdf Graphic file (type pdf)
+<use P1.pdf>
+Package pdftex.def Info: P1.pdf  used on input line 318.
+(pdftex.def)             Requested size: 269.80615pt x 151.76596pt.
+ [6 <./P1a.pdf> <./P1b.pdf
+
+pdfTeX warning: pdflatex.exe (file ./P1b.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./P1c.pdf
+
+pdfTeX warning: pdflatex.exe (file ./P1c.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./P1.pdf
+
+pdfTeX warning: pdflatex.exe (file ./P1.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+>]
+<P2b.pdf, id=78, 963.6pt x 542.025pt>
+File: P2b.pdf Graphic file (type pdf)
+<use P2b.pdf>
+Package pdftex.def Info: P2b.pdf  used on input line 327.
+(pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
+<P2c.pdf, id=79, 963.6pt x 542.025pt>
+File: P2c.pdf Graphic file (type pdf)
+<use P2c.pdf>
+Package pdftex.def Info: P2c.pdf  used on input line 332.
+(pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
+<T2.pdf, id=80, 963.6pt x 542.025pt>
+File: T2.pdf Graphic file (type pdf)
+<use T2.pdf>
+Package pdftex.def Info: T2.pdf  used on input line 337.
+(pdftex.def)             Requested size: 337.26506pt x 189.71158pt.
+ [7
+
+ <./P2b.pdf> <./P2c.pdf
+
+pdfTeX warning: pdflatex.exe (file ./P2c.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./T2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./T2.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+>]
+This exam contains 2 questions with 7 parts, 0 subparts, and 0 subsubparts.
+("Tutorial 13 Solutions.aux") )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 57 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 5929 strings out of 493305
+ 88424 string characters out of 3128497
+ 179518 words of memory out of 3000000
+ 9366 multiletter control sequences out of 15000+200000
+ 40075 words of font info for 44 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,13n,38p,377b,1338s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/prad9100/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/
+dvips/lm/lm-rm.enc}{C:/Users/prad9100/AppData/Local/Programs/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-mathsy.enc}{C:/Users/prad9100/AppData/Local/Programs/MiKTeX 2.9/
+fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/prad9100/AppData/Local/Programs/MiKT
+eX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Users/prad9100/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/prad9100/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/prad9100/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/prad9100
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/pr
+ad9100/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Us
+ers/prad9100/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><
+C:/Users/prad9100/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.
+pfb><C:/Users/prad9100/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/
+lmri12.pfb><C:/Users/prad9100/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmsy10.pfb><C:/Users/prad9100/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmsy8.pfb>
+Output written on "Tutorial 13 Solutions.pdf" (7 pages, 468027 bytes).
+PDF statistics:
+ 144 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+

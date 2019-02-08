@@ -1,0 +1,125 @@
+%\documentclass[12pt, answers]{exam}
+\documentclass[12pt, answers]{exam}
+%\setlength{\textheight}{5in}
+%\usepackage[textwidth=9in,centering]{geometry}
+\usepackage[a4paper, margin=.9in]{geometry}
+\usepackage{econometrics}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,enumerate,enumitem}
+\usepackage{setspace, graphicx, multirow, dcolumn, caption}
+\usepackage{bm}
+
+
+\def\eps{\varepsilon}
+\def\var{\text{Var}}
+\def\cov{\text{Cov}}
+\def\corr{\text{Corr}}
+\def\Ybar{\overline{Y}}
+\def\Xbar{\overline{X}}
+\def\ybar{\overline{y}}
+\def\xbar{\overline{x}}
+\def\Yhat{\widehat{Y}}
+\def\yhat{\widehat{y}}
+\def\fhat{\widehat{f}}
+\def\bhat{\widehat{\beta}}
+\def\betahat{\widehat{\vbeta}}
+\def\MSE{\text{MSE}}
+\def\SE{\text{SE}}
+\def\train{\mathcal{T}}
+\def\data{\mathcal{D}}
+\def\model{\mathcal{M}}
+\def\hvtheta{\widehat{\vtheta}}
+\def\({\left(}
+\def\){\right)}
+
+
+%\setlength{\parindent}{0pt}
+\onehalfspace
+
+%\renewcommand{\labelitemi}{1.}
+
+%\bracketedpoints
+\pointpoints{mark}{marks}
+% \qformat{\textbf{Problem \thequestion: \\ \hspace{10pt} \\}}
+
+
+\qformat{
+    \textbf{Question \thequestion}
+    \hfill
+    \vrule depth 20pt width 0pt % Large depth to make space
+}
+
+\begin{document}
+
+\begin{center}
+{\Large \textbf{QBUS6810} \\\textbf{Statistical Learning and Data Mining}}\\ \bigskip \large{Tutorial 6 (Written Exercises)}
+\end{center}
+
+%\bigskip
+
+%\noindent \textbf{Important note:} some of these solutions are abbreviated. In the exam, you need to show your work in full detail. Write and justify every step of your reasoning. You should leave no doubt to the examiner that you understand what you are doing, as opposed to reciting material from memory.
+
+%\bigskip
+
+\begin{questions}
+
+%\bigskip
+
+\question
+
+%Recall the additive error model:
+%\[Y=f(X)+\eps,\]
+%where $\eps$ is i.i.d. with $E(\eps)=0$ and $\var(\eps)=\sigma^2$ (for simplicity, we will treat~$X$ as independent of~$\eps$).
+
+Show that the OLS estimator is unbiased, i.e., derive the following:
+\begin{align*}
+E\widehat{\vbeta}=\vbeta.
+\end{align*}
+Treat the $x$ values as fixed (i.e. non-random) and use the formula for the OLS estimator.\vspace{12pt}
+
+\question
+
+%Recall the additive error model:
+%\[Y=f(X)+\eps,\]
+%where $\eps$ is i.i.d. with $E(\eps)=0$ and $\var(\eps)=\sigma^2$ (for simplicity, we will treat~$X$ as independent of~$\eps$).
+
+Consider a method for learning the true regression function, $f$, in the additive error model.  It is known (this will be further discussed in the lectures later in the semester) that the expected value of the amount by which the training MSE underestimates the corresponding test MSE is given by
+\begin{align}
+\label{eq1}
+\frac{2}{n}\sum_{i=1}^{n}\cov(\widehat{Y}_i,Y_i),
+\end{align}
+where $Y_i$ are the response values in the training data, and $\widehat{Y}_i=\widehat{f}(\vx_i)$ are the corresponding fitted values of the learning method.
+
+\medskip
+
+
+Show that the quantity in display~(\ref{eq1}) equals $2\sigma^2/k$ for the k-nearest neighbours regression method. Thus, the training error underestimates the test error by the largest amount in the case $k=1$, in which the training data is fitted perfectly.
+
+Treat the $x$ values as fixed (i.e. non-random).  \vspace{12pt}
+
+
+
+\question
+
+Let $y_1,\ldots,y_n$ be a sample from a distribution with the density function $p(y;\theta)=\theta y^{\theta-1}$ for $0<y<1$, where $\theta>0$.
+
+Find~$\widehat{\theta}$, the maximum likelihood estimator of~$\theta$.
+
+Compute~$\widehat{\theta}$ for the sample $y_1=0.35$, $y_2=0.28$, $y_3=0.91$.  \vspace{12pt}
+
+
+\question
+
+Consider the following penalized least-squares estimator, called the \textit{Ridge regression estimator} (to be discussed in Lecture 6):
+\begin{align*}
+\betahat_{\text{ridge}} &= \underset{\vbeta}{\text{argmin}}\, \left\{ \sum_{i=1}^n\(y_i-\beta_0-\sum_{j=1}^{p}\beta_jx_{ij}\)^2 + \lambda \sum_{j=1}^{p}\beta_j^2\right\}
+\end{align*}
+Note that OLS is a special case of Ridge, corresponding to $\lambda=0$.
+
+
+
+Show that if we set $\lambda=\sigma^2/\tau^2$, the ridge regression estimator is the posterior mode (i.e. the MAP estimator) in a Gaussian linear regression model with the prior on the regression coefficients under which $\beta_j$ are independent $N(0,\tau^2)$, for $j=1,...,p$.  Here we are not putting an informative prior on the intercept $\beta_0$ {\footnotesize(this is equivalent to using a flat prior density for $\beta_0$, i.e., a density that is proportional to the constant~$1$)}.
+
+\end{questions}
+
+\end{document} 
