@@ -1,0 +1,23 @@
+# Fdb version 3
+["pdflatex"] 1551564054 "Tutorial 2 Solution.tex" "Tutorial 2 Solution.pdf" "Tutorial 2 Solution" 1551564055
+  "/usr/local/texlive/2013/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty" 1303254447 7140 ece2cc23d9f20e1f53975ac167f42d3e ""
+  "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifvtex.sty" 1335995445 6797 68c89f65e01894df882dd523d3fc0a8f ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls" 1254151887 20571 b8bd218bf2e18b4f5817ee643cd9c515 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty" 1254151887 5022 2ec7815b07dc68e65542e23a180bc839 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/base/size12.clo" 1254151887 9053 a28d9b3c915d12545f3d5e7c4986be20 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/exam/exam.cls" 1306188151 224311 0d2d621fd3743403fb55f0daa6f98250 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty" 1284422013 40502 e003406220954b0716679d7928aedd8a ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty" 1156702488 2266 7054435e4584a41cf53b0a7ca624d0cb ""
+  "/usr/local/texlive/2013/texmf-dist/web2c/texmf.cnf" 1366045088 31707 0953c15448e216a6585e92ee639d2dc2 ""
+  "/usr/local/texlive/2013/texmf-var/web2c/xetex/xelatex.fmt" 1395149418 3164673 ab25d31e3d2908adb93756f0b5b1cc54 ""
+  "/usr/local/texlive/2013/texmf.cnf" 1369923207 577 cbc827f6294276973a1952e86e8ad73a ""
+  "Tutorial 2 Solution.aux" 1533879757 317 bb14edd4da917dc36952568d9e757238 ""
+  "Tutorial 2 Solution.tex" 1551564053 4088 1fa5baf0e4b9c510429b8345f98fd5f9 ""
+  "econometrics.sty" 0 -1 0 ""
+  (generated)
+  "Tutorial 2 Solution.log"
+  "Tutorial 2 Solution.pdf"
+  "Tutorial 2 Solution.aux"
