@@ -135,185 +135,72 @@ $(document).ready(function () {
 <p><span class="math inline">\(M\)</span> is the number of hidden units. By making M large enough, neural networks allow one to fit almost arbitrarily flexible. another example of a neural network fit where the test error rate starts to increase as we increase the number of hidden units. This penalty (called weight decay) forces the neural network fit to be smoother. The penalty function: once we use weight decay in the fit the error rate becomes fairly insensitive to the number of hidden units (as long as we have enough).</p>
 <pre><code>## Warning: package 'ElemStatLearn' was built under R version 3.5.2</code></pre>
 <pre><code>## [1] 4601   58</code></pre>
-<pre><code>##       A.1              A.2              A.3              A.4          
-##  Min.   :0.0000   Min.   : 0.000   Min.   :0.0000   Min.   : 0.00000  
-##  1st Qu.:0.0000   1st Qu.: 0.000   1st Qu.:0.0000   1st Qu.: 0.00000  
-##  Median :0.0000   Median : 0.000   Median :0.0000   Median : 0.00000  
-##  Mean   :0.1046   Mean   : 0.213   Mean   :0.2807   Mean   : 0.06542  
-##  3rd Qu.:0.0000   3rd Qu.: 0.000   3rd Qu.:0.4200   3rd Qu.: 0.00000  
-##  Max.   :4.5400   Max.   :14.280   Max.   :5.1000   Max.   :42.81000  
-##       A.5               A.6              A.7              A.8         
-##  Min.   : 0.0000   Min.   :0.0000   Min.   :0.0000   Min.   : 0.0000  
-##  1st Qu.: 0.0000   1st Qu.:0.0000   1st Qu.:0.0000   1st Qu.: 0.0000  
-##  Median : 0.0000   Median :0.0000   Median :0.0000   Median : 0.0000  
-##  Mean   : 0.3122   Mean   :0.0959   Mean   :0.1142   Mean   : 0.1053  
-##  3rd Qu.: 0.3800   3rd Qu.:0.0000   3rd Qu.:0.0000   3rd Qu.: 0.0000  
-##  Max.   :10.0000   Max.   :5.8800   Max.   :7.2700   Max.   :11.1100  
-##       A.9               A.10              A.11              A.12       
-##  Min.   :0.00000   Min.   : 0.0000   Min.   :0.00000   Min.   :0.0000  
-##  1st Qu.:0.00000   1st Qu.: 0.0000   1st Qu.:0.00000   1st Qu.:0.0000  
-##  Median :0.00000   Median : 0.0000   Median :0.00000   Median :0.1000  
-##  Mean   :0.09007   Mean   : 0.2394   Mean   :0.05982   Mean   :0.5417  
-##  3rd Qu.:0.00000   3rd Qu.: 0.1600   3rd Qu.:0.00000   3rd Qu.:0.8000  
-##  Max.   :5.26000   Max.   :18.1800   Max.   :2.61000   Max.   :9.6700  
-##       A.13              A.14               A.15             A.16        
-##  Min.   :0.00000   Min.   : 0.00000   Min.   :0.0000   Min.   : 0.0000  
-##  1st Qu.:0.00000   1st Qu.: 0.00000   1st Qu.:0.0000   1st Qu.: 0.0000  
-##  Median :0.00000   Median : 0.00000   Median :0.0000   Median : 0.0000  
-##  Mean   :0.09393   Mean   : 0.05863   Mean   :0.0492   Mean   : 0.2488  
-##  3rd Qu.:0.00000   3rd Qu.: 0.00000   3rd Qu.:0.0000   3rd Qu.: 0.1000  
-##  Max.   :5.55000   Max.   :10.00000   Max.   :4.4100   Max.   :20.0000  
-##       A.17             A.18             A.19             A.20         
-##  Min.   :0.0000   Min.   :0.0000   Min.   : 0.000   Min.   : 0.00000  
-##  1st Qu.:0.0000   1st Qu.:0.0000   1st Qu.: 0.000   1st Qu.: 0.00000  
-##  Median :0.0000   Median :0.0000   Median : 1.310   Median : 0.00000  
-##  Mean   :0.1426   Mean   :0.1847   Mean   : 1.662   Mean   : 0.08558  
-##  3rd Qu.:0.0000   3rd Qu.:0.0000   3rd Qu.: 2.640   3rd Qu.: 0.00000  
-##  Max.   :7.1400   Max.   :9.0900   Max.   :18.750   Max.   :18.18000  
-##       A.21              A.22              A.23             A.24         
-##  Min.   : 0.0000   Min.   : 0.0000   Min.   :0.0000   Min.   : 0.00000  
-##  1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.:0.0000   1st Qu.: 0.00000  
-##  Median : 0.2200   Median : 0.0000   Median :0.0000   Median : 0.00000  
-##  Mean   : 0.8098   Mean   : 0.1212   Mean   :0.1016   Mean   : 0.09427  
-##  3rd Qu.: 1.2700   3rd Qu.: 0.0000   3rd Qu.:0.0000   3rd Qu.: 0.00000  
-##  Max.   :11.1100   Max.   :17.1000   Max.   :5.4500   Max.   :12.50000  
-##       A.25              A.26              A.27              A.28       
-##  Min.   : 0.0000   Min.   : 0.0000   Min.   : 0.0000   Min.   :0.0000  
-##  1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.:0.0000  
-##  Median : 0.0000   Median : 0.0000   Median : 0.0000   Median :0.0000  
-##  Mean   : 0.5495   Mean   : 0.2654   Mean   : 0.7673   Mean   :0.1248  
-##  3rd Qu.: 0.0000   3rd Qu.: 0.0000   3rd Qu.: 0.0000   3rd Qu.:0.0000  
-##  Max.   :20.8300   Max.   :16.6600   Max.   :33.3300   Max.   :9.0900  
-##       A.29               A.30             A.31               A.32        
-##  Min.   : 0.00000   Min.   :0.0000   Min.   : 0.00000   Min.   :0.00000  
-##  1st Qu.: 0.00000   1st Qu.:0.0000   1st Qu.: 0.00000   1st Qu.:0.00000  
-##  Median : 0.00000   Median :0.0000   Median : 0.00000   Median :0.00000  
-##  Mean   : 0.09892   Mean   :0.1029   Mean   : 0.06475   Mean   :0.04705  
-##  3rd Qu.: 0.00000   3rd Qu.:0.0000   3rd Qu.: 0.00000   3rd Qu.:0.00000  
-##  Max.   :14.28000   Max.   :5.8800   Max.   :12.50000   Max.   :4.76000  
-##       A.33               A.34              A.35              A.36        
-##  Min.   : 0.00000   Min.   :0.00000   Min.   : 0.0000   Min.   :0.00000  
-##  1st Qu.: 0.00000   1st Qu.:0.00000   1st Qu.: 0.0000   1st Qu.:0.00000  
-##  Median : 0.00000   Median :0.00000   Median : 0.0000   Median :0.00000  
-##  Mean   : 0.09723   Mean   :0.04784   Mean   : 0.1054   Mean   :0.09748  
-##  3rd Qu.: 0.00000   3rd Qu.:0.00000   3rd Qu.: 0.0000   3rd Qu.:0.00000  
-##  Max.   :18.18000   Max.   :4.76000   Max.   :20.0000   Max.   :7.69000  
-##       A.37            A.38             A.39               A.40        
-##  Min.   :0.000   Min.   :0.0000   Min.   : 0.00000   Min.   :0.00000  
-##  1st Qu.:0.000   1st Qu.:0.0000   1st Qu.: 0.00000   1st Qu.:0.00000  
-##  Median :0.000   Median :0.0000   Median : 0.00000   Median :0.00000  
-##  Mean   :0.137   Mean   :0.0132   Mean   : 0.07863   Mean   :0.06483  
-##  3rd Qu.:0.000   3rd Qu.:0.0000   3rd Qu.: 0.00000   3rd Qu.:0.00000  
-##  Max.   :6.890   Max.   :8.3300   Max.   :11.11000   Max.   :4.76000  
-##       A.41              A.42              A.43             A.44        
-##  Min.   :0.00000   Min.   : 0.0000   Min.   :0.0000   Min.   : 0.0000  
-##  1st Qu.:0.00000   1st Qu.: 0.0000   1st Qu.:0.0000   1st Qu.: 0.0000  
-##  Median :0.00000   Median : 0.0000   Median :0.0000   Median : 0.0000  
-##  Mean   :0.04367   Mean   : 0.1323   Mean   :0.0461   Mean   : 0.0792  
-##  3rd Qu.:0.00000   3rd Qu.: 0.0000   3rd Qu.:0.0000   3rd Qu.: 0.0000  
-##  Max.   :7.14000   Max.   :14.2800   Max.   :3.5700   Max.   :20.0000  
-##       A.45              A.46              A.47               A.48         
-##  Min.   : 0.0000   Min.   : 0.0000   Min.   :0.000000   Min.   : 0.00000  
-##  1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.:0.000000   1st Qu.: 0.00000  
-##  Median : 0.0000   Median : 0.0000   Median :0.000000   Median : 0.00000  
-##  Mean   : 0.3012   Mean   : 0.1798   Mean   :0.005444   Mean   : 0.03187  
-##  3rd Qu.: 0.1100   3rd Qu.: 0.0000   3rd Qu.:0.000000   3rd Qu.: 0.00000  
-##  Max.   :21.4200   Max.   :22.0500   Max.   :2.170000   Max.   :10.00000  
-##       A.49              A.50            A.51              A.52        
-##  Min.   :0.00000   Min.   :0.000   Min.   :0.00000   Min.   : 0.0000  
-##  1st Qu.:0.00000   1st Qu.:0.000   1st Qu.:0.00000   1st Qu.: 0.0000  
-##  Median :0.00000   Median :0.065   Median :0.00000   Median : 0.0000  
-##  Mean   :0.03857   Mean   :0.139   Mean   :0.01698   Mean   : 0.2691  
-##  3rd Qu.:0.00000   3rd Qu.:0.188   3rd Qu.:0.00000   3rd Qu.: 0.3150  
-##  Max.   :4.38500   Max.   :9.752   Max.   :4.08100   Max.   :32.4780  
-##       A.53              A.54               A.55               A.56        
-##  Min.   :0.00000   Min.   : 0.00000   Min.   :   1.000   Min.   :   1.00  
-##  1st Qu.:0.00000   1st Qu.: 0.00000   1st Qu.:   1.588   1st Qu.:   6.00  
-##  Median :0.00000   Median : 0.00000   Median :   2.276   Median :  15.00  
-##  Mean   :0.07581   Mean   : 0.04424   Mean   :   5.191   Mean   :  52.17  
-##  3rd Qu.:0.05200   3rd Qu.: 0.00000   3rd Qu.:   3.706   3rd Qu.:  43.00  
-##  Max.   :6.00300   Max.   :19.82900   Max.   :1102.500   Max.   :9989.00  
-##       A.57            spam     
-##  Min.   :    1.0   email:2788  
-##  1st Qu.:   35.0   spam :1813  
-##  Median :   95.0               
-##  Mean   :  283.3               
-##  3rd Qu.:  266.0               
-##  Max.   :15841.0</code></pre>
 <pre class="r"><code>library(nnet)
 # Fit a neural network to your training data using 2 hidden units and 0 decay.
 # decay parameter for weight decay. Default 0. It is the penalty on large coefficient
 nn1 &lt;- nnet(formula = spam ~., data=spam.train, size=2, decay=0.1, maxit=1000) </code></pre>
 <pre><code>## # weights:  119
-## initial  value 2480.446813 
-## iter  10 value 1895.682595
-## iter  20 value 1602.756269
-## iter  30 value 1482.184286
-## iter  40 value 1025.221286
-## iter  50 value 786.782956
-## iter  60 value 674.273690
-## iter  70 value 589.969557
-## iter  80 value 568.239757
-## iter  90 value 547.657190
-## iter 100 value 533.671000
-## iter 110 value 529.084523
-## iter 120 value 526.999891
-## iter 130 value 516.401082
-## iter 140 value 485.985534
-## iter 150 value 462.954596
-## iter 160 value 449.155135
-## iter 170 value 441.674575
-## iter 180 value 437.946230
-## iter 190 value 434.121127
-## iter 200 value 430.235418
-## iter 210 value 422.819736
-## iter 220 value 417.405490
-## iter 230 value 415.865540
-## iter 240 value 415.688025
-## iter 250 value 415.682644
-## final  value 415.682527 
+## initial  value 2191.346442 
+## iter  10 value 1893.636300
+## iter  20 value 1302.689653
+## iter  30 value 921.218002
+## iter  40 value 632.050586
+## iter  50 value 553.689415
+## iter  60 value 505.673235
+## iter  70 value 485.812253
+## iter  80 value 468.522859
+## iter  90 value 460.984754
+## iter 100 value 449.817812
+## iter 110 value 440.014322
+## iter 120 value 435.049345
+## iter 130 value 433.761184
+## iter 140 value 430.974112
+## iter 150 value 428.179837
+## iter 160 value 422.138787
+## iter 170 value 415.031384
+## iter 180 value 412.964261
+## iter 190 value 412.452503
+## iter 200 value 411.505229
+## iter 210 value 411.035769
+## iter 220 value 410.896598
+## iter 230 value 410.894173
+## final  value 410.894131 
 ## converged</code></pre>
 <pre class="r"><code>summary(nn1)</code></pre>
 <pre><code>## a 57-2-1 network with 119 weights
 ## options were - entropy fitting  decay=0.1
 ##   b-&gt;h1  i1-&gt;h1  i2-&gt;h1  i3-&gt;h1  i4-&gt;h1  i5-&gt;h1  i6-&gt;h1  i7-&gt;h1  i8-&gt;h1 
-##   -0.69    0.70    0.14   -0.03   -0.03    0.66    0.87   -1.69    0.56 
+##   -0.53    0.49   -0.21   -0.29    0.86    2.22    1.50    0.16   -0.11 
 ##  i9-&gt;h1 i10-&gt;h1 i11-&gt;h1 i12-&gt;h1 i13-&gt;h1 i14-&gt;h1 i15-&gt;h1 i16-&gt;h1 i17-&gt;h1 
-##    0.36    0.14    0.97    0.25    0.43    0.45    1.00   -1.94   -0.89 
+##    1.48    0.19    3.18   -0.07   -0.07    0.28    0.24    0.07   -0.32 
 ## i18-&gt;h1 i19-&gt;h1 i20-&gt;h1 i21-&gt;h1 i22-&gt;h1 i23-&gt;h1 i24-&gt;h1 i25-&gt;h1 i26-&gt;h1 
-##   -1.90   -0.23   -1.24    0.14   -0.20    0.38    0.39    0.13    0.59 
+##    0.50   -0.31    0.19    0.33    0.14    0.27    0.05    1.08   -0.22 
 ## i27-&gt;h1 i28-&gt;h1 i29-&gt;h1 i30-&gt;h1 i31-&gt;h1 i32-&gt;h1 i33-&gt;h1 i34-&gt;h1 i35-&gt;h1 
-##    1.88    0.29    1.07    1.65    0.14    0.32   -0.98    0.32    1.29 
+##   -1.05   -1.14   -1.76   -0.95    0.06   -0.19   -0.03   -0.76   -1.16 
 ## i36-&gt;h1 i37-&gt;h1 i38-&gt;h1 i39-&gt;h1 i40-&gt;h1 i41-&gt;h1 i42-&gt;h1 i43-&gt;h1 i44-&gt;h1 
-##    1.63    0.38    1.58    2.43    0.19    0.94    2.25    1.25    1.16 
+##   -0.42   -0.06   -0.42   -0.41    0.36   -1.27   -2.16   -0.45   -2.07 
 ## i45-&gt;h1 i46-&gt;h1 i47-&gt;h1 i48-&gt;h1 i49-&gt;h1 i50-&gt;h1 i51-&gt;h1 i52-&gt;h1 i53-&gt;h1 
-##    1.07   -0.10    1.22    1.03   -0.38    0.88    0.26    0.43   -2.27 
+##    0.10   -4.74   -1.24   -0.44   -0.38   -1.94   -0.25    2.23    0.75 
 ## i54-&gt;h1 i55-&gt;h1 i56-&gt;h1 i57-&gt;h1 
-##   -0.66    0.45   -0.22   -0.01 
+##    0.29    0.00    0.00    0.00 
 ##   b-&gt;h2  i1-&gt;h2  i2-&gt;h2  i3-&gt;h2  i4-&gt;h2  i5-&gt;h2  i6-&gt;h2  i7-&gt;h2  i8-&gt;h2 
-##    1.29   -0.50    0.35    0.29   -0.14   -1.30   -1.00   -2.53   -0.75 
+##    0.51    0.21    0.05   -0.04    0.03    0.37    0.37   -3.47   -0.44 
 ##  i9-&gt;h2 i10-&gt;h2 i11-&gt;h2 i12-&gt;h2 i13-&gt;h2 i14-&gt;h2 i15-&gt;h2 i16-&gt;h2 i17-&gt;h2 
-##   -0.98   -0.20    1.13    0.14    0.31    0.03   -1.12   -0.18   -0.53 
+##   -0.05    0.06    2.05    0.14    0.20    0.35   -0.17   -0.61   -1.35 
 ## i18-&gt;h2 i19-&gt;h2 i20-&gt;h2 i21-&gt;h2 i22-&gt;h2 i23-&gt;h2 i24-&gt;h2 i25-&gt;h2 i26-&gt;h2 
-##   -0.08    0.11   -1.33   -0.22   -0.08   -1.32   -0.83    4.12    0.78 
+##    0.20   -0.21   -0.80    0.08    0.02   -2.40   -1.22    4.55    1.61 
 ## i27-&gt;h2 i28-&gt;h2 i29-&gt;h2 i30-&gt;h2 i31-&gt;h2 i32-&gt;h2 i33-&gt;h2 i34-&gt;h2 i35-&gt;h2 
-##    2.35   -0.26    2.12   -0.73    2.36    0.83    0.48    1.05    1.93 
+##    3.71   -2.25    1.19   -0.86    1.27    0.32    0.19   -0.27    1.07 
 ## i36-&gt;h2 i37-&gt;h2 i38-&gt;h2 i39-&gt;h2 i40-&gt;h2 i41-&gt;h2 i42-&gt;h2 i43-&gt;h2 i44-&gt;h2 
-##   -2.37    0.34   -1.52   -0.57    0.51    2.00    0.88    1.59    2.13 
+##   -2.05    0.21    0.21    0.29    1.06    2.33    0.45    2.35    0.56 
 ## i45-&gt;h2 i46-&gt;h2 i47-&gt;h2 i48-&gt;h2 i49-&gt;h2 i50-&gt;h2 i51-&gt;h2 i52-&gt;h2 i53-&gt;h2 
-##    0.39    3.40    0.48    1.66    1.06    0.34    1.84   -1.86   -2.70 
+##    0.61    0.10    0.63    2.43    0.79   -0.57    1.36    0.25   -3.47 
 ## i54-&gt;h2 i55-&gt;h2 i56-&gt;h2 i57-&gt;h2 
-##   -1.26   -0.22    0.00    0.00 
+##   -1.23   -0.32    0.00    0.00 
 ##  b-&gt;o h1-&gt;o h2-&gt;o 
-##  4.88 -7.47 -8.46</code></pre>
+## -0.63  7.52 -9.50</code></pre>
 <pre class="r"><code># Refit the neural network with 10 hidden units and 0 decay.
 nnfit = nnet(spam ~ ., spam, size = 10, subset = tr);</code></pre>
-<pre><code>## Warning in nnet.formula(spam ~ ., spam, size = 10, subset = tr): group
-## 'email' is empty</code></pre>
-<pre><code>## # weights:  591
-## initial  value 35.737483 
-## final  value 0.000000 
-## converged</code></pre>
 <pre class="r"><code># predict spam.test dataset on nn1 
 nn1.pr.test &lt;- predict(nn1, spam.test, type='class') 
 
@@ -321,12 +208,12 @@ nn1.test.tab&lt;-table(spam.test$spam, nn1.pr.test, dnn=c('Actual', 'Predicted')
 nn1.test.tab</code></pre>
 <pre><code>##        Predicted
 ## Actual  email spam
-##   email   770   51
-##   spam     51  508</code></pre>
+##   email   778   43
+##   spam     65  494</code></pre>
 <pre class="r"><code># Calucate overall error percentage ~ 7.68% 
 nn1.test.perf &lt;- 100 * (nn1.test.tab[2] + nn1.test.tab[3]) / sum(nn1.test.tab)
 nn1.test.perf</code></pre>
-<pre><code>## [1] 7.391304</code></pre>
+<pre><code>## [1] 7.826087</code></pre>
 </div>
 
 
