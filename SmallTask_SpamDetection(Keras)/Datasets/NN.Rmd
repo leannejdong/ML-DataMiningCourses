@@ -1,0 +1,65 @@
+---
+title: "NeuralNetwork for Spam"
+author: "Leanne Dong"
+date: "09/03/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+Here our goal is to train an ANN to discriminate between spam and nonspam emails.
+
+$M$ is the number of hidden units. By making M large enough, neural networks 
+allow one to fit almost arbitrarily flexible. another example of a neural network 
+fit where the test error rate starts to increase as we increase the number of hidden units.
+This penalty (called weight decay) forces the neural network fit to be smoother. 
+The penalty function: once we use weight decay in the fit the error rate becomes 
+fairly insensitive to the number of hidden units (as long as we have enough).
+
+
+```{r,echo=FALSE}
+library(ElemStatLearn)
+data(spam)
+# alternatively read the data
+#spam = read.table("/Users/leannedong/Desktop/ML-DataMiningCourses/Lab 13 on NNetworks to be added/spam.data", header=T)
+dim(spam)
+#summary(spam)
+set.seed(42) 
+my.sample <- sample(nrow(spam), 3221) 
+spam.train <- spam[my.sample, ] 
+spam.test <- spam[-my.sample, ]
+write.csv(spam.train, file = "/Users/leannedong/Desktop/ML-DataMiningCourses/Datasets/spam.train.csv")
+write.csv(spam.test, file = "/Users/leannedong/Desktop/ML-DataMiningCourses/Datasets/spam.test.csv")
+#tr = sample(1:150,100)
+```
+```{r}
+library(nnet)
+# Fit a neural network to your training data using 2 hidden units and 0 decay.
+# decay parameter for weight decay. Default 0. It is the penalty on large coefficient
+nn1 <- nnet(formula = spam ~., data=spam.train, size=2, decay=0.1, maxit=1000) 
+summary(nn1)
+```
+```{r,eval=FALSE}
+# Refit the neural network with 10 hidden units and 0 decay.
+nnfit = nnet(spam ~ ., spam, size = 10, subset = tr);
+```
+
+```{r}
+# predict spam.test dataset on nn1 
+nn1.pr.test <- predict(nn1, spam.test, type='class') 
+
+nn1.test.tab<-table(spam.test$spam, nn1.pr.test, dnn=c('Actual', 'Predicted')) 
+nn1.test.tab
+```
+
+```{r}
+# Calucate overall error percentage ~ 7.68% 
+nn1.test.perf <- 100 * (nn1.test.tab[2] + nn1.test.tab[3]) / sum(nn1.test.tab)
+nn1.test.perf
+```
+
+
