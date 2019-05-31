@@ -1,3 +1,3 @@
 # ML-DataMiningCourses
 
-More content to be added
+Copy right reserved to the University of Sydney!
